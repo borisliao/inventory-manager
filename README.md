@@ -5,9 +5,13 @@ Uses Express and Node with MYSQL as the database
 
 Production Server Information:
 > local ip: 192.168.1.149
+
 > server runs on: http://192.168.1.149:3000
+
 > user: prod
+
 > password: hibsrunkpark
+
 > home directory: /home/prod
 
 
