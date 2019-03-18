@@ -10,7 +10,7 @@ Production Server Information:
 > password: hibsrunkpark <br/>
 > home directory: /home/prod <br/>
 
-<br/>
+
 How to connect to the production server:
 1. Install OpenVPN for Windows [WINDOWS INSTALLER (NSIS)] [OPENVPN_GUI](https://openvpn.net/community-downloads/)
 * Or install Tunnelbrick for Mac [Stable] [tunnelbrick](https://tunnelblick.net/downloads.html)
@@ -24,19 +24,18 @@ How to connect to the production server:
 6. Enter the password listed above, and login
 7. run the server (instructions below)
 
-<br/>
-On the production server, sudo requires no password and the files are located on the CheckSum folder.
-<br/>
 
-Navigate to the checksum folder and run ```node bin/www``` to start the server
+On the production server, sudo requires no password and the files are located on the CheckSum folder.<br/>
+
+Navigate to the checksum folder and run ```node bin/www``` to start the server<br/>
 ```shell
 cd ~/CheckSum
 node bin/www
 ```
 
-<br/>
-You can set the server to the background by inserting &:  ```node bin/www &```
-<br/>
+
+You can set the server to the background by inserting &:  ```node bin/www &```<br/>
+
 Collaborators:
 - Eric Wong
 - Avi Jain
