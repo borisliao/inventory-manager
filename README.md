@@ -4,17 +4,18 @@ Uses Express and Node with MYSQL as the database
 ![storyboard](github_files/storyboard.png)
 
 Production Server Information:
-local ip: 192.168.1.149
-server runs on: http://192.168.1.149:3000
-user: prod
-password: hibsrunkpark
-home directory: /home/prod
+> local ip: 192.168.1.149
+> server runs on: http://192.168.1.149:3000
+> user: prod
+> password: hibsrunkpark
+> home directory: /home/prod
 
 
 How to connect to the production server:
 1. Install OpenVPN for Windows [WINDOWS INSTALLER (NSIS)] [OPENVPN_GUI](https://openvpn.net/community-downloads/)
 * Or install Tunnelbrick for Mac [Stable] [tunnelbrick](https://tunnelblick.net/downloads.html)
-2. Get the ovpn file to connect to the server [ovpn](github_files/production.ovpn#raw=true)
+2. Download the ovpn file to connect to the server [ovpn](https://raw.githubusercontent.com/borisliao/inventory-manager/master/github_files/production.ovpn)
+* save the webpage (Control - S)
 3. Import the file by right clicking the openvpn desktop icon and selecting import file.
 * Or on mac, just drag the ovpn file to the tunnelbrick logo on the top bar (after opening the program)
 4. Connect to the production vpn (select production on the menu bar and click connect)
