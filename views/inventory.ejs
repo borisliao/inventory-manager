@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>NUTZ Stock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+tr:hover { 
+   background: red; 
+}
+td a { 
+   display: block; 
+   border: 1px solid black;
+   padding: 16px;
+}
+
+</style>
+<body>
+    <div class = "container"> <center><h1>NUTZ STOCK<h1><center> </div>
+
+    <form class="example" action="/items" style="margin:auto;max-width:300px">
+    <input type="text" placeholder="Search.." name="search2">
+    <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+
+    <button onclick="location.href='/items'" type="button"> Go to Items</button>
+
+    <!-- <tbody>
+      <tr class='clickable-row'>
+          <td><a href="#">Blah Blah</a></td> <td>1234567</td> <td>£158,000</td>
+      </tr>
+  </tbody> -->
+
+
+    <table id="tableElement" class="table"> 
+      <thead class="thead-dark">
+          <tr>
+            <th scope="col">Item</th>
+            <th scope="col">Quantity</th>
+          </tr>
+        </thead>
+    
+    
+    <!-- <button onclick="addRows(3)">Made 3 Rows</button>
+        <p></p>
+
+    <script>
+      function addRows(rows) {
+      var table = document.getElementById('tableElement');
+      for (var i = 1; i <= rows; i++) {
+        var tr = document.createElement('tr');
+
+        var a = document.createElement('a');
+        a.setAttribute('href', "items/" + i.toString());
+
+        var cell1 = document.createElement('td');
+        var cell2 = document.createElement('td');
+
+        cell1.innerHTML = "Extention Cord 12 Outlets";
+        cell2.innerHTML = "1";
+
+        cell1.appendChild(a);
+        cell2.appendChild(a);
+
+        tr.appendChild(cell1);
+        tr.appendChild(cell1);
+        tr.appendChild(cell2);
+        tr.appendChild(cell2);
+        table.appendChild(tr);
+       }
+      }
+    </script> -->
+    
+</body>
+</html>
