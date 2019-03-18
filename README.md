@@ -12,9 +12,9 @@ home directory: /home/prod
 
 
 How to connect to the production server:
-1. Install OpenVPN for Windows [WINDOWS INSTALLER (NSIS)] ![OPENVPN_GUI](https://openvpn.net/community-downloads/)
-* Or install Tunnelbrick for Mac [Stable] ![tunnelbrick](https://tunnelblick.net/downloads.html)
-2. Get the ovpn file to connect to the server ![ovpn](github_files/production.ovpn)
+1. Install OpenVPN for Windows [WINDOWS INSTALLER (NSIS)] [OPENVPN_GUI](https://openvpn.net/community-downloads/)
+* Or install Tunnelbrick for Mac [Stable] [tunnelbrick](https://tunnelblick.net/downloads.html)
+2. Get the ovpn file to connect to the server [ovpn](github_files/production.ovpn#raw=true)
 3. Import the file by right clicking the openvpn desktop icon and selecting import file.
 * Or on mac, just drag the ovpn file to the tunnelbrick logo on the top bar (after opening the program)
 4. Connect to the production vpn (select production on the menu bar and click connect)
