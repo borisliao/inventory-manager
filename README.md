@@ -18,8 +18,8 @@ How to connect to the production server:
 3. Import the file by right clicking the openvpn desktop icon and selecting import file.
 * Or on mac, just drag the ovpn file to the tunnelbrick logo on the top bar (after opening the program)
 4. Connect to the production vpn (select production on the menu bar and click connect)
-5. Open your favorite ssh program (windows bash, putty, terminal(mac))
-* on the ssh terminal you can type ```ssh prod@192.168.1.149```
+5. Open your favorite ssh program (windows bash, windows command prompt (cmd), putty, terminal(mac))
+* on the ssh terminal/cmd you can type ```ssh prod@192.168.1.149```
 6. Enter the password listed above, and login
 7. run the server (instructions below)
 
